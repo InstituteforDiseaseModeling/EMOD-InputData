@@ -1,0 +1,54 @@
+{
+    "Metadata": {
+        "DateCreated": "Thu Oct 27 14:20:03 2011", 
+        "Tool": "none_yet.py", 
+        "Author": "jbloedow", 
+        "IdReference": "Legacy", 
+        "NodeCount": 1,
+        "Description" : "Single node, two-pool scenario. Tests the effect of different weights (population sizes) on different pools. Output should show difference in contagion population proportional to weight settings at pool type level (not in overlay aka this file)."
+    }, 
+     "Defaults": {
+        "PoolAttributes": {
+            "PoolDefinitions" : 
+            [
+                {
+                    "id": 1,
+                    "type_name" : "default_g_1_w_1",
+                    "population_weight" : 1,
+                    "rate_return": 3,
+                    "accessibility": 1,
+                    "flag_contact_route":1,
+                    "flag_environmental_route":1
+                },
+                {
+                    "id": 2,
+                    "type_name" : "default_g_1_w_2",
+                    "population_weight" : 1,
+                    "rate_return": 3,
+                    "accessibility": 1,
+                    "flag_contact_route":1,
+                    "flag_environmental_route":1
+                }
+            ],
+            "PoolMovementLinks" : [
+                {
+                    "from" : 1,
+                    "to" : 2,
+                    "rate_out" : 0.05
+                },
+                {
+                    "from" : 2,
+                    "to" : 1,
+                    "rate_out" : 0.05
+                }
+            ],
+            "PoolContactScalingLinks": []
+        }
+    },
+    "Nodes":
+    [
+        {
+            "NodeID": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Metadata": {
+        "Author": "cwiswell", 
+        "DateCreated": "Wed Jun 24 16:42:00 2015", 
+        "IdReference": "SampleContent", 
+        "NodeCount": 1, 
+        "Tool": "notepad++.exe"
+    }, 
+    "Defaults": {
+    },
+    "Nodes": [
+        {
+            "IndividualAttributes": {
+                "AgeDistributionFlag": 1,
+                "AgeDistribution1": 7300,
+                "AgeDistribution2": 7665
+            },
+            "NodeID": 1
+        }
+    ]
+}

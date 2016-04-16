@@ -1,0 +1,21 @@
+{
+    "Metadata": {
+        "Author": "Institute for Disease Modeling", 
+        "BottomLatitude": "12.30727", 
+        "DataProvenance": "Temporarily just a copy of air-temperature for Senegal_Gambia_Thies - currently unused by the DTK", 
+        "DatavalueCount": 4015, 
+        "DateCreated": "05/01/2014", 
+        "IdReference": "Gridded world grump2.5arcmin", 
+        "LeftLongitude": "-17.53524", 
+        "NodeCount": 1, 
+        "OriginalDataYears": "2001-2011", 
+        "Resolution": "2.5arcmin", 
+        "RightLongitude": "-11.35589", 
+        "RunID": "1391734045", 
+        "StartDayOfYear": "January 1", 
+        "Tool": "MergeNodes.exe", 
+        "UpdateResolution": "CLIMATE_UPDATE_DAY", 
+        "UpperLatitude": "16.69163"
+    }, 
+    "NodeOffsets": "0F4909D300000000"
+}

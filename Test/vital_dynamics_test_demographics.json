@@ -1,0 +1,176 @@
+{
+    "Metadata": {
+        "Author": "cwiswell", 
+        "DateCreated": "Wed Jun 24 16:42:00 2015", 
+        "IdReference": "SampleContent", 
+        "NodeCount": 1, 
+        "Tool": "notepad++.exe"
+    }, 
+    "Defaults": {
+        "IndividualProperties": [
+            {
+                "Initial_Distribution": [
+                    0.5, 
+                    0.5
+                ], 
+                "Property": "QualityOfCare", 
+                "Transitions": [], 
+                "Values": [
+                    "Hospital", 
+                    "CDC"
+                ]
+            },
+            {
+                "Initial_Distribution": [
+                    0.50,
+                    0.33,
+                    0.17
+                ], 
+                "Property": "Place", 
+                "TransmissionMatrix": {
+                    "Matrix": [
+                        [
+                            0, 
+                            1, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "Route": "Contact"
+                }, 
+                "Transitions": [
+                    {
+                        "Age_In_Years_Restriction": {},
+                        "Coverage": 1.0,
+                        "From": "Scissors",
+                        "Probability_Per_Timestep": 0.2,
+                        "Timestep_Restriction": 
+                        {
+                        "Start": 60,
+                        "End": 64
+                        },
+                        "Timesteps_Until_Reversion": 50,
+                        "To": "Paper",
+                        "Type": "At_Timestep"
+                    }
+                ], 
+                "Values": [
+                    "Rock",
+                    "Scissors",
+                    "Paper"
+                ]
+            }            
+        ] 
+    },
+    "Nodes": [
+        {
+            "IndividualAttributes": {
+                "AgeDistributionFlag": 1,
+                "AgeDistribution1": 1825,
+                "AgeDistribution2": 29200,
+                "AgeDistribution": {
+                    "NumDistributionAxes": 0, 
+                    "ResultScaleFactor": 365, 
+                    "ResultUnits": "years", 
+                    "DistributionValues": [
+                        0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1, 1
+                    ], 
+                    "ResultValues": [
+                        0.0, 5.0,  10,  15,  20,  25, 30,  35, 40, 45, 50, 55
+                    ]
+                }, 
+                "FertilityDistribution": {
+                    "Notes": "From bihar_single_node_demographics minus NumDistributionAxes minus urban axis",
+                    "NumDistributionAxes_NOPE": 2,
+                    "AxisNames": [ "urban", "age" ],
+                    "AxisUnits": [ "rural=0,urban=1", "years" ],
+                    "AxisScaleFactors": [ 1, 365 ],
+                    "NumPopulationGroups": [ 2, 12 ],
+                    "PopulationGroups": [
+                        [ 0, 1 ],
+                        [ 0.0, 5.0,  10,  15,  20,  25, 30,  35, 40, 45, 50, 55 ]
+                    ],
+                    "ResultUnits": "annual births per 1000 individuals",
+                    "ResultScaleFactor_TOO_HIGH": 1,
+                    "ResultScaleFactor": 0.00000273972602739726027397260273973,
+                    "ResultValues": [
+                        [ 0, 0, 0, 0, 500, 0, 0, 0, 0, 0, 0, 0 ],
+                        [ 0, 0, 0, 0, 500, 0, 0, 0, 0, 0, 0, 0 ]
+                    ]
+                },
+                "ImmunityDistribution1": 1, 
+                "ImmunityDistribution2": 0, 
+                "ImmunityDistributionFlag": 0, 
+                "MigrationHeterogeneityDistribution1": 1, 
+                "MigrationHeterogeneityDistribution2": 0, 
+                "MigrationHeterogeneityDistributionFlag": 0, 
+                "MortalityDistribution": {
+                    "AxisNames": [
+                        "gender", 
+                        "age"
+                    ], 
+                    "AxisScaleFactors": [
+                        1, 
+                        365
+                    ], 
+                    "AxisUnits": [
+                        "male=0,female=1", 
+                        "years"
+                    ], 
+                    "NumDistributionAxes": 2, 
+                    "NumPopulationGroups": [
+                        2, 
+                        1
+                    ], 
+                    "PopulationGroups": [
+                        [
+                            0, 
+                            1
+                        ], 
+                        [
+                            0
+                        ]
+                    ], 
+                    "ResultScaleFactor": 1, 
+                    "ResultUnits": "deaths per day", 
+                    "ResultValues": [
+                        [
+                            0.0005
+                        ], 
+                        [
+                            0.0005
+                        ]
+                    ]
+                }, 
+                "PrevalenceDistribution1": 0, 
+                "PrevalenceDistribution2": 0, 
+                "PrevalenceDistributionFlag": 0, 
+                "RiskDistribution1": 1, 
+                "RiskDistribution2": 0, 
+                "RiskDistributionFlag": 0
+            }, 
+            "NodeAttributes": {
+                "AbovePoverty": 0, 
+                "Airport": 0, 
+                "Altitude": 0, 
+                "BirthRate": 0.25, 
+                "InitialPopulation": 10000, 
+                "Latitude": -8.5, 
+                "Longitude": 36.5, 
+                "Region": 1, 
+                "Seaport": 0, 
+                "Urban": 0
+            }, 
+            "NodeID": 1
+        }
+    ]
+}

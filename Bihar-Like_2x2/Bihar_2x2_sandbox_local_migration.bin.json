@@ -1,0 +1,11 @@
+{
+     "Metadata": {
+          "DateCreated": "Sun Sep 25 20:17:03 2011", 
+          "Tool": "createmigrationheader.py", 
+          "Author": "jsteinkraus", 
+          "IdReference": "Legacy", 
+          "NodeCount": 4, 
+          "DatavalueCount": 8
+     }, 
+     "NodeOffsets": "0000000100000000000000020000006000000003000000C00000000400000120"
+}

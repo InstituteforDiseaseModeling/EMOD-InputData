@@ -1,0 +1,11 @@
+{
+     "Metadata": {
+          "DateCreated": "Sun Sep 25 19:08:52 2011", 
+          "Tool": "createmigrationheader.py", 
+          "Author": "jsteinkraus", 
+          "IdReference": "Gridded world grump2.5arcmin", 
+          "NodeCount": 4, 
+          "DatavalueCount": 5
+     }, 
+     "NodeOffsets": "157F074900000000153906F80000003C158006BF0000007814FB0640000000B4"
+}

@@ -1,0 +1,65 @@
+{
+    "Metadata": {
+        "DateCreated": "Thu Oct 27 14:20:03 2011", 
+        "Tool": "none_yet.py", 
+        "Author": "jbloedow", 
+        "IdReference": "Legacy", 
+        "NodeCount": 4
+    }, 
+    "Defaults": {
+        "PoolAttributes": {
+            "PoolDefinitions" : 
+            [
+                {
+                    "id": 1,
+                    "type_name" : "default_g_1_w_1",
+                    "population_weight" : 1,
+                    "rate_return": 3,
+                    "accessibility": 1,
+                    "flag_contact_route": 1,
+                    "flag_environmental_route": 1
+                },
+                {
+                    "id": 2,
+                    "type_name" : "default_g_1_w_1_novisitor",
+                    "population_weight" : 1,
+                    "rate_return": 3,
+                    "accessibility": 1,
+                    "flag_contact_route": 1,
+                    "flag_environmental_route": 1
+                }
+            ],
+            "PoolMovementLinks" : [],
+            "PoolContactScalingLinks": []
+        }
+    },
+    "Nodes":
+    [
+        {
+            "NodeID": 1, 
+            "PoolAttributes": {
+                "PoolDefinitions" : 
+                [
+                    {
+                        "id": 1,
+                        "type_name" : "default_g_1_w_1",
+                        "population_weight" : 1,
+                        "rate_return": 3,
+                        "accessibility": 1,
+                        "flag_contact_route": 1,
+                        "flag_environmental_route": 1
+                    }
+                ]
+            }
+        },
+        {
+            "NodeID": 2 
+        },
+        {
+            "NodeID": 3 
+        },
+        {
+            "NodeID": 4 
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "Metadata": {
+        "DateCreated": "Thu Oct 27 14:20:03 2011", 
+        "Tool": "none_yet.py", 
+        "Author": "jbloedow", 
+        "IdReference": "Legacy", 
+        "NodeCount": 1,
+        "Description" : "Tests the effect of two separate transmission routes (environmental and contact) in a single-node, two-pool scenario. They are completely isolated from each other. Output should show separate contagion (at reduced magnitude depending on IsDefaultSheddingFunction value) on each route."
+    }, 
+    "Defaults": {
+        "PoolAttributes": {
+            "PoolDefinitions" : 
+            [
+                {
+                    "id": 1,
+                    "type_name" : "contact_route",
+                    "population_weight" : 1,
+                    "rate_return": 1,
+                    "accessibility": 1,
+                    "flag_contact_route":1,
+                    "flag_environmental_route":0
+                },
+                {
+                    "id": 2,
+                    "type_name" : "environmental_route",
+                    "population_weight" : 1,
+                    "rate_return": 1,
+                    "accessibility": 1,
+                    "flag_contact_route":0,
+                    "flag_environmental_route":1
+                }
+            ],
+            "PoolMovementLinks" : [],
+            "PoolContactScalingLinks": []
+        }
+    },
+    "Nodes":
+    [
+        {
+            "NodeID": 1
+        }
+    ]
+}

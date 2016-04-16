@@ -1,0 +1,15 @@
+{
+     "Metadata": {
+          "DateCreated": "July 16, 2012", 
+          "Tool": "climate_builder", 
+          "Author": "peckhoff", 
+          "IdReference": "Gridded world grump2.5arcmin", 
+          "NodeCount": 2, 
+          "DatavalueCount": 3650, 
+          "UpdateResolution": "CLIMATE_UPDATE_DAY",
+          "OriginalDataYears": "1995-2004",
+          "StartDayOfYear": "January 1",
+          "DataProvenance": "Data obtained from Natalie Myers"
+     }, 
+     "NodeOffsets": "1FDE078E000000001FE2079600003908"
+}

@@ -1,0 +1,67 @@
+{
+    "Metadata": {
+        "DateCreated": "Wed Jun 24 13:41:00 2015", 
+        "Tool": "notepad++", 
+        "Author": "cwiswell", 
+        "IdReference": "SampleContent", 
+        "NodeCount": 1
+    }, 
+    "Defaults": {
+        "IndividualProperties": [
+            {
+                "Initial_Distribution": [
+                    0.50,
+                    0.33,
+                    0.17
+                ], 
+                "Property": "Place", 
+                "TransmissionMatrix": {
+                    "Matrix": [
+                        [
+                            0, 
+                            1, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "Route": "Contact"
+                }, 
+                "Transitions": [
+                    {
+                        "Age_In_Years_Restriction": {},
+                        "Coverage": 1.0,
+                        "From": "Scissors",
+                        "Probability_Per_Timestep": 0.2,
+                        "Timestep_Restriction": 
+                        {
+                        "Start": 60,
+                        "End": 64
+                        },
+                        "Timesteps_Until_Reversion": 50,
+                        "To": "Paper",
+                        "Type": "At_Timestep"
+                    }
+                ], 
+                "Values": [
+                    "Rock",
+                    "Scissors",
+                    "Paper"
+                ]
+            }
+        ]
+    },
+    "Nodes": [
+        {
+            "NodeID": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Metadata": {
+        "Author": "Institute for Disease Modeling", 
+        "DataProvenance": "Temporarily just a copy of air-temperature for Zambia_Sinamalima - currently unused by the DTK", 
+        "DatavalueCount": 4015, 
+        "DateCreated": "02/12/2014", 
+        "IdReference": "Gridded world grump2.5arcmin", 
+        "LowerRightLatitude": "-19", 
+        "LowerRightLongitude": "34", 
+        "NodeCount": 1, 
+        "OriginalDataYears": "2001-2011", 
+        "Resolution": "2.5arcmin", 
+        "RunID": "1379187785", 
+        "StartDayOfYear": "January 1", 
+        "Tool": "MergeNodes.exe", 
+        "UpdateResolution": "CLIMATE_UPDATE_DAY", 
+        "UpperLeftLatitude": "-8", 
+        "UpperLeftLongitude": "21"
+    }, 
+    "NodeOffsets": "137506D700000000"
+}

@@ -1,0 +1,145 @@
+{
+    "Metadata":
+    {
+        "DateCreated": "Mon Sep 26 09:59:35 2011", 
+        "Tool": "convertdemog.py", 
+        "Author": "jsteinkraus", 
+        "IdReference": "Legacy", 
+        "NodeCount": 1
+    }, 
+    "Defaults": 
+    {
+        "tOPV_dose_distribution": 
+        { 
+            "NumDistributionAxes": 1 ,
+            "AxisNames": [ "age" ],
+            "AxisUnits": [ "years" ],
+            "AxisScaleFactors": [ 365 ],
+            "NumPopulationGroups": [ 13 ],
+            "PopulationGroups": 
+            [
+                [ 0, 0.5, 0.5, 1.5, 1.5, 2.5, 2.5, 3.5, 3.5, 4.5, 4.5, 5, 5 ]
+            ],
+            "ResultUnits": "vaccine doses received",
+            "ResultScaleFactor": 1,
+            "ResultValues": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+            "DistributionValues": 
+            [
+                [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+                [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+            ]
+        },
+         "bOPV_dose_distribution": 
+        { 
+            "NumDistributionAxes":  1 ,
+            "AxisNames": [ "age" ],
+            "AxisUnits": [ "years" ],
+            "AxisScaleFactors": [ 365 ],
+            "NumPopulationGroups": [ 1 ],
+            "PopulationGroups": 
+            [
+                [ 0 ]
+            ],
+            "ResultUnits": "vaccine doses received",
+            "ResultScaleFactor": 1,
+            "ResultValues": [ 0 ],
+            "DistributionValues": 
+            [
+                [ 1 ]
+            ]
+        },
+        "mOPV1_dose_distribution": 
+        { 
+            "NumDistributionAxes":  1 ,
+            "AxisNames": [ "age" ],
+            "AxisUnits": [ "years" ],
+            "AxisScaleFactors": [ 365 ],
+            "NumPopulationGroups": [ 1 ],
+            "PopulationGroups": 
+            [
+                [ 0 ]
+            ],
+            "ResultUnits": "vaccine doses received",
+            "ResultScaleFactor": 1,
+            "ResultValues": [ 0 ],
+            "DistributionValues": 
+            [
+                [ 1 ]
+            ]
+        },
+         "mOPV2_dose_distribution": 
+        { 
+            "NumDistributionAxes":  1 ,
+            "AxisNames": [ "age" ],
+            "AxisUnits": [ "years" ],
+            "AxisScaleFactors": [ 365 ],
+            "NumPopulationGroups": [ 1 ],
+            "PopulationGroups": 
+            [
+                [ 0 ]
+            ],
+            "ResultUnits": "vaccine doses received",
+            "ResultScaleFactor": 1,
+            "ResultValues": [ 0 ],
+            "DistributionValues": 
+            [
+                [ 1 ]
+            ]
+        },
+         "mOPV3_dose_distribution": 
+        { 
+            "NumDistributionAxes":  1 ,
+            "AxisNames": [ "age" ],
+            "AxisUnits": [ "years" ],
+            "AxisScaleFactors": [ 365 ],
+            "NumPopulationGroups": [ 1 ],
+            "PopulationGroups": 
+            [
+                [ 0 ]
+            ],
+            "ResultUnits": "vaccine doses received",
+            "ResultScaleFactor": 1,
+            "ResultValues": [ 0 ],
+            "DistributionValues": 
+            [
+                [ 1 ]
+            ]
+        },
+         "IPV_dose_distribution": 
+        { 
+            "NumDistributionAxes":  1 ,
+            "AxisNames": [ "age" ],
+            "AxisUnits": [ "years" ],
+            "AxisScaleFactors": [ 365 ],
+            "NumPopulationGroups": [ 1 ],
+            "PopulationGroups": 
+            [
+                [ 0 ]
+            ],
+            "ResultUnits": "vaccine doses received",
+            "ResultScaleFactor": 1,
+            "ResultValues": [ 0 ],
+            "DistributionValues": 
+            [
+                [ 1 ]
+            ]
+        }
+    },
+    "Nodes":
+    [
+        {
+            "NodeID": 1
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+     "Metadata": {
+          "DateCreated": "Fri Apr 27 15:09:31 2012", 
+          "Tool": "convertdemog.py", 
+          "Author": "jsteinkraus", 
+          "IdReference": "Gridded world grump2.5arcmin", 
+          "Resolution": 150,
+          "NodeCount": 1
+     }, 
+     "Defaults": {
+          "NodeAttributes": {
+               "Airport": 0, 
+               "Region": 1, 
+               "Seaport": 0, 
+               "BirthRate": 0.00012329
+          }, 
+          "IndividualAttributes": {
+               "AgeDistributionFlag": 3, 
+               "AgeDistribution1": 7.09774e-05, 
+               "AgeDistribution2": 0, 
+               "PrevalenceDistributionFlag": 1, 
+               "PrevalenceDistribution1": 0.1, 
+               "PrevalenceDistribution2": 0.2, 
+               "ImmunityDistributionFlag": 0, 
+               "ImmunityDistribution1": 1, 
+               "ImmunityDistribution2": 0, 
+               "RiskDistributionFlag": 0, 
+               "RiskDistribution1": 1, 
+               "RiskDistribution2": 0, 
+               "MigrationHeterogeneityDistributionFlag": 0, 
+               "MigrationHeterogeneityDistribution1": 1, 
+               "MigrationHeterogeneityDistribution2": 0,
+               "MortalityDistribution": {
+                    "NumDistributionAxes": 2,
+                    "AxisNames": [ "gender", "age" ],
+                    "AxisUnits": [ "male=0,female=1", "years" ],
+                    "AxisScaleFactors": [ 1, 365 ],
+                    "NumPopulationGroups": [ 2, 5 ],
+                    "PopulationGroups": [
+                        [ 0, 1 ],
+                        [ 0, 2, 10, 100, 2000 ]
+                    ],
+                    "ResultUnits": "annual deaths per 1000 individuals",
+                    "ResultScaleFactor": 0.00000274,
+                    "ResultValues": [
+                        [ 60, 8, 2, 20, 400 ],
+                        [ 60, 8, 2, 20, 400 ]
+                    ]
+                }
+          }
+     }, 
+     "Nodes": [
+          {
+               "NodeID": 326436567, 
+               "NodeAttributes": {
+                    "AbovePoverty": 0.5, 
+                    "Latitude": -17.0625, 
+                    "Longitude": 27.5625, 
+                    "Altitude": 513.667, 
+                    "InitialPopulation": 3000,
+                    "Urban": 0
+               }
+         } 
+     ]
+}

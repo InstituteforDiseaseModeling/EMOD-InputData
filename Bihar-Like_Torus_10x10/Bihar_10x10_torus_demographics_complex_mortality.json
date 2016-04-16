@@ -1,0 +1,332 @@
+{
+    "Metadata": {
+        "DateCreated": "Sun Sep 25 20:13:53 2011",
+        "Tool": "convertdemog.py",
+        "Author": "ewenger",
+        "IdReference": "Legacy",
+        "NodeCount": 100
+    },
+    "Defaults": {
+        "IndividualAttributes": {
+            "MortalityDistribution": {
+                "NumDistributionAxes": 2,
+                "AxisNames": [ "gender", "age" ],
+                "AxisUnits": [ "male=0,female=1", "years" ],
+                "AxisScaleFactors": [ 1, 365 ],
+                "NumPopulationGroups": [ 2, 20 ],
+                "PopulationGroups": [
+                    [ 0, 1 ],
+                    [ 0.5, 3, 7.5, 12.5, 17.5, 22.5, 27.5, 32.5, 37.5, 42.5, 47.5, 52.5, 57.5, 62.5, 67.5, 72.5, 77.5, 82.5, 87.5, 120 ]
+                ],
+                "ResultUnits": "annual deaths per 1000 individuals",
+                "ResultScaleFactor": 0.00000273972602739726027397260273973,
+                "ResultValues": [
+                    [ 67.2, 7.5, 2.5, 1.2, 2, 2.1, 2.3, 2.1, 3.3, 3.7, 5.8, 9.7, 13.6, 24.9, 32.2, 58.6, 74.0, 106.7, 169.3, 1000 ],
+                    [ 67.2, 7.5, 2.5, 1.2, 2, 2.1, 2.3, 2.1, 3.3, 3.7, 5.8, 9.7, 13.6, 24.9, 32.2, 58.6, 74.0, 106.7, 169.3, 1000 ]
+                ]
+            }
+        }
+    },
+    "Nodes": [
+        {
+            "NodeID": 1
+        }, 
+        {
+            "NodeID": 2
+        }, 
+        {
+            "NodeID": 3
+        }, 
+        {
+            "NodeID": 4
+        },
+        {
+            "NodeID": 5
+        }, 
+        {
+            "NodeID": 6
+        }, 
+        {
+            "NodeID": 7
+        }, 
+        {
+            "NodeID": 8
+        }, 
+        {
+            "NodeID": 9
+        },
+        {
+            "NodeID": 10
+        }, 
+        {
+            "NodeID": 11
+        }, 
+        {
+            "NodeID": 12
+        }, 
+        {
+            "NodeID": 13
+        }, 
+        {
+            "NodeID": 14
+        },
+        {
+            "NodeID": 15
+        }, 
+        {
+            "NodeID": 16
+        }, 
+        {
+            "NodeID": 17
+        }, 
+        {
+            "NodeID": 18
+        }, 
+        {
+            "NodeID": 19
+        },
+        {
+            "NodeID": 20
+        }, 
+        {
+            "NodeID": 21
+        }, 
+        {
+            "NodeID": 22
+        }, 
+        {
+            "NodeID": 23
+        }, 
+        {
+            "NodeID": 24
+        },
+        {
+            "NodeID": 25
+        }, 
+        {
+            "NodeID": 26
+        }, 
+        {
+            "NodeID": 27
+        }, 
+        {
+            "NodeID": 28
+        }, 
+        {
+            "NodeID": 29
+        },
+        {
+            "NodeID": 30
+        }, 
+        {
+            "NodeID": 31
+        }, 
+        {
+            "NodeID": 32
+        }, 
+        {
+            "NodeID": 33
+        }, 
+        {
+            "NodeID": 34
+        },
+        {
+            "NodeID": 35
+        }, 
+        {
+            "NodeID": 36
+        }, 
+        {
+            "NodeID": 37
+        }, 
+        {
+            "NodeID": 38
+        }, 
+        {
+            "NodeID": 39
+        },
+        {
+            "NodeID": 40
+        }, 
+        {
+            "NodeID": 41
+        }, 
+        {
+            "NodeID": 42
+        }, 
+        {
+            "NodeID": 43
+        }, 
+        {
+            "NodeID": 44
+        },
+        {
+            "NodeID": 45
+        }, 
+        {
+            "NodeID": 46
+        }, 
+        {
+            "NodeID": 47
+        }, 
+        {
+            "NodeID": 48
+        }, 
+        {
+            "NodeID": 49
+        },
+        {
+            "NodeID": 50
+        }, 
+        {
+            "NodeID": 51
+        }, 
+        {
+            "NodeID": 52
+        }, 
+        {
+            "NodeID": 53
+        }, 
+        {
+            "NodeID": 54
+        },
+        {
+            "NodeID": 55
+        }, 
+        {
+            "NodeID": 56
+        }, 
+        {
+            "NodeID": 57
+        }, 
+        {
+            "NodeID": 58
+        }, 
+        {
+            "NodeID": 59
+        },
+        {
+            "NodeID": 60
+        }, 
+        {
+            "NodeID": 61
+        }, 
+        {
+            "NodeID": 62
+        }, 
+        {
+            "NodeID": 63
+        }, 
+        {
+            "NodeID": 64
+        },
+        {
+            "NodeID": 65
+        }, 
+        {
+            "NodeID": 66
+        }, 
+        {
+            "NodeID": 67
+        }, 
+        {
+            "NodeID": 68
+        }, 
+        {
+            "NodeID": 69
+        },
+        {
+            "NodeID": 70
+        }, 
+        {
+            "NodeID": 71
+        }, 
+        {
+            "NodeID": 72
+        }, 
+        {
+            "NodeID": 73
+        }, 
+        {
+            "NodeID": 74
+        },
+        {
+            "NodeID": 75
+        }, 
+        {
+            "NodeID": 76
+        }, 
+        {
+            "NodeID": 77
+        }, 
+        {
+            "NodeID": 78
+        }, 
+        {
+            "NodeID": 79
+        },
+        {
+            "NodeID": 80
+        }, 
+        {
+            "NodeID": 81
+        }, 
+        {
+            "NodeID": 82
+        }, 
+        {
+            "NodeID": 83
+        }, 
+        {
+            "NodeID": 84
+        },
+        {
+            "NodeID": 85
+        }, 
+        {
+            "NodeID": 86
+        }, 
+        {
+            "NodeID": 87
+        }, 
+        {
+            "NodeID": 88
+        }, 
+        {
+            "NodeID": 89
+        },
+        {
+            "NodeID": 90
+        }, 
+        {
+            "NodeID": 91
+        }, 
+        {
+            "NodeID": 92
+        }, 
+        {
+            "NodeID": 93
+        }, 
+        {
+            "NodeID": 94
+        },
+        {
+            "NodeID": 95
+        }, 
+        {
+            "NodeID": 96
+        }, 
+        {
+            "NodeID": 97
+        }, 
+        {
+            "NodeID": 98
+        }, 
+        {
+            "NodeID": 99
+        },
+        {
+            "NodeID": 100
+        } 
+    ]
+}
