@@ -12,21 +12,24 @@
             {
                 "Pair_Formation_Parameters" :
                 {
-                    "Formation_Rate_Constant": 0.0013699000000000001
+                    "Extra_Relational_Rate_Ratio_Male": 10,
+                    "Extra_Relational_Rate_Ratio_Female": 10
                 }
             },
             "INFORMAL" :
             {
                 "Pair_Formation_Parameters" :
                 {
-                    "Formation_Rate_Constant": 0.0014419999999999999
+                    "Extra_Relational_Rate_Ratio_Male": 10,
+                    "Extra_Relational_Rate_Ratio_Female": 10
                 }
             },
             "MARITAL" :
             {
                 "Pair_Formation_Parameters" :
                 {
-                    "Formation_Rate_Constant": 9.1323999999999995e-05
+                    "Extra_Relational_Rate_Ratio_Male": 10,
+                    "Extra_Relational_Rate_Ratio_Female": 10
                 }
             }
         }
