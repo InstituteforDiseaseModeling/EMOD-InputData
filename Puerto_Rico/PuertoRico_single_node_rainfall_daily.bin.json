@@ -1,0 +1,15 @@
+{
+    "Metadata": {
+        "Author": "IDM", 
+        "DataProvenance": "", 
+        "DatavalueCount": 13254, 
+        "DateCreated": "08/29/2016", 
+        "IdReference": "Gridded world grump2.5arcmin", 
+        "NodeCount": 1, 
+        "OriginalDataYears": "1979-2015", 
+        "StartDayOfYear": "January 1", 
+        "Tool": "Dtk-tools", 
+        "UpdateResolution": "CLIMATE_UPDATE_DAY"
+    }, 
+    "NodeOffsets": "144b07a400000000"
+}
