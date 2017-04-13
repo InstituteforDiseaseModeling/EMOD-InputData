@@ -1,5 +1,5 @@
 # EMOD-InputData
-Full set of input data files for use with the EMOD disease transmission model
+Full set of input data files for use with the EMOD disease modeling software. 
 
 ## *Important*
 This repository uses [LFS](https://git-lfs.github.com/) (large file storage) to manage the binaries and large JSON file(s). Note that a standard clone of the repository will only retrieve the metadata about these files managed with LFS. In order to retrieve the actual data, please follow these steps:
@@ -10,4 +10,4 @@ This repository uses [LFS](https://git-lfs.github.com/) (large file storage) to 
 
 *Additional Note:* the GitHub "Download .ZIP" button will not package and deliver the actual binary data of the LFS managed files. You will need to use Git and follow the steps listed above in order to download the input data files.
 
-<a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
+For more information on downloading and using these files, see the EMOD software documentation at https://institutefordiseasemodeling.github.io/EMOD/.
