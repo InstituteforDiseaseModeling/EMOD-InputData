@@ -10,7 +10,7 @@ Original data for these files comes from one or more of the following sources:
 
 ### Weather Data
 
-**WorldClim**: http://www.worldclim.org/curent  
+**WorldClim**: https://www.worldclim.org/current  
 License:  Creative Commons Attribution-ShareAlike 4.0 International License
 
 **GSOD**: ftp://ftp.ncdc.noaa.gov/pub/data/gsod  
